@@ -26,17 +26,16 @@ body {
 .title {
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #164863;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#appreciationContainer {
+.description {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 20px;
     color: #427D9D;
     display: flex;
     align-items: center;
@@ -127,4 +126,17 @@ a {
     background-color: #ccc;
     color: #000;
     box-shadow: none;
+}
+
+.infobtn {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
