@@ -8,10 +8,7 @@ if (!modalShown) {
   console.log("Modal should be shown")
   var modalTriggerBtn = document.getElementById('modalTriggerBtn');
   modalTriggerBtn.click();
-
-  // Enregistrer dans les cookies que le modal a été affiché
-  console.log("Setting modalShown cookie")
-  localStorage.setItem('modalShown', true);
+  
 }
 
 // Gérer le bouton Ne plus afficher
@@ -24,6 +21,9 @@ modalCloseBtn.addEventListener('click', function() {
 
 // Gérer le bouton OK
 var modalUnderstoodBtn = document.getElementById('modalUnderstoodBtn');
+// Enregistrer dans les cookies que le modal a été affiché
+console.log("Setting modalShown cookie")
+localStorage.setItem('modalShown', true);
 modalUnderstoodBtn.addEventListener('click', function() {
   // Fermer le modal
   var modalInstance = bootstrap.Modal.getInstance(document.getElementById('staticBackdrop'));
