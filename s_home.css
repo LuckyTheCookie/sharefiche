@@ -149,3 +149,13 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #427D9D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
