@@ -140,3 +140,12 @@ a {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.newstext {
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
