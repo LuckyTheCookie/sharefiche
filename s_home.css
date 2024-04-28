@@ -159,3 +159,7 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+.card-fixed-height {
+    height: 100%; /* Définissez la hauteur souhaitée */
+}
