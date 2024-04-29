@@ -112,9 +112,7 @@ a {
 
 /* Styles pour le bouton "inutilisable" */
 .card-disabled {
-    background-color: #ccc; /* Couleur de fond grise */
     color: #000; /* Couleur du texte noire */
-    border: none; /* Pas de bordure */
     cursor: not-allowed; /* Curseur interdit */
     pointer-events: none; /* Désactiver les interactions de clic */
     opacity: 0.6; /* Opacité réduite */
