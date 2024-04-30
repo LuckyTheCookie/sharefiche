@@ -25,7 +25,7 @@
             <div class="card-body">
                 <h5 class="card-title">Quantité de matière</h5>
                 <p class="card-text">Mole / Avogadro / Atomes / ...</p>
-                <a href="https://github.com/LuckyTheCookie/ShareFiche/releases/download/Sheet/Physique.Quantite.de.matiere.png" class="btn btn-primary" target="_blank">Télécharger</a>
+                <a href="https://github.com/LuckyTheCookie/sharefiche/releases/download/Sheet/Physique.Quantite.de.matiere.png" class="btn btn-primary" target="_blank">Télécharger</a>
                 <a href="https://luckythecookie.github.io/ShareFiche/Fiches/Physique/Physique.Quantite.de.matiere.png" class="btn btn-secondary">Voir</a>
             </div>
         </div>
@@ -36,3 +36,8 @@
 <div class="container mt-3 mb-3">
     <a href="index.html" class="btn btn-secondary">Retour à l'accueil</a>
 </div>
+
+                <a href="#" class="btn btn-primary disabled">Réviser</a>
+
+
+                    <p class="to-the-center newstext card-text">Nouveauté : Possibilité de réviser le vocabulaire en ligne</p>
