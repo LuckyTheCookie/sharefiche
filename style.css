@@ -161,3 +161,12 @@ a {
 .card-fixed-height {
     height: 100%; /* Définissez la hauteur souhaitée */
 }
+
+.card-anim {
+    transition: transform .3s;
+}
+
+.card-anim:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
