@@ -20,6 +20,8 @@ Le projet ShareFiche est en cours de développement. Il est régulièrement mis 
 - Français 📖
 - SNT 🖥️
 - Anglais 🇬🇧
+- Allemand 🇩🇪
+- EMC ⚖️
 
 ## Matières à venir très prochainement 📅
 
