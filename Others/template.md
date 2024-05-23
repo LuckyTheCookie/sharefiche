@@ -41,3 +41,8 @@
 
 
                     <p class="to-the-center newstext card-text">Nouveauté : Possibilité de réviser le vocabulaire en ligne</p>
+
+
+<div class="maintenance-banner to-the-center">
+        <p>Site en maintenance, des bugs peuvent survenir...</p>
+    </div>
