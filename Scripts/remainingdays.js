@@ -28,5 +28,16 @@ dateElements.forEach(function(element) {
   var daysRemaining = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
   // Afficher le nombre de jours restants sur l'élément de date
-  element.textContent = daysRemaining + " jours restants";
+  if (daysRemaining === 0) {
+    element.textContent = "Aujourd'hui";
+  } else if (daysRemaining === 1) {
+    element.textContent = "Demain";
+  } else if (daysRemaining < 0) {
+    element.textContent = "Cet examen s'est déroulé il y a " + Math.abs(daysRemaining) + " jours";
+  }
+  
+  else {
+    element.textContent = daysRemaining + " jours restants";
+  }
+
 });
