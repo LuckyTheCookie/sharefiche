@@ -4,6 +4,7 @@ body {
     color: #427D9D;
     margin: 0;
     padding: 0;
+    
 }
 
 .header {
@@ -169,4 +170,9 @@ a {
 .card-anim:hover {
     transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-muted {
+    font-size: 15px;
+    font-weight: bold;
 }
