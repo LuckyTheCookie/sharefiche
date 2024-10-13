@@ -1,10 +1,11 @@
 # ShareFiche - Fiches de révision pour le lycée 📑
 
-ShareFiche est un projet open-source qui a pour but de partager mes fiches de révision afin d'aider les élèves de ma classe. Les fiches sont classées par matière et par thème. Elles sont disponibles en téléchargement et en visualisation directe.
+ShareFiche est un projet collaboratif qui a pour but de partager mes fiches de révision afin d'aider les élèves de ma classe. Les fiches sont classées par matière et par thème. Elles sont disponibles en téléchargement et en visualisation directe.
 
 ## Comment ça marche ? 🤔
 
-Il n'y a besoin d'aucune installation et d'aucun compte pour utiliser ShareFiche. Il suffit de se rendre sur le site [ShareFiche](https://luckythecookie.github.io/sharefiche/home.html) et de découvrir les différentes fiches. Vous pourrez alors télécharger les fiches ou les visualiser directement depuis votre navigateur.
+Pour utiliser Sharefiche, rendez-vous sur le site [ShareFiche](https://school.lthb.fr). Vous pourrez y télécharger les fiches de révision qui vous intéressent et les consulter directement en ligne. 
+Depuis l'année 2024, ShareFiche requiert un compte pour consulter les fiches de révision. Vous pouvez vous inscrire gratuitement sur le site.
 
 ## Comment contribuer ? 🤝
 
@@ -17,23 +18,18 @@ Le projet ShareFiche est en cours de développement. Il est régulièrement mis 
 ## Matières disponibles 📚
 
 - Physique Chimie 🧪
-- Français 📖
-- SNT 🖥️
-- Anglais 🇬🇧
+- Mathématiques 🧮
 - Allemand 🇩🇪
-- EMC ⚖️
 
 ## Matières à venir très prochainement 📅
 
-- Mathématiques 🧮
+- Français 📖
+- NSI 💻
 - Histoire-Géographie 🌍
+- Anglais 🇬🇧
 
-## Matières non prévues 🤷
-
-- Espagnol 🇪🇸
-- Italien 🇮🇹
-
-Ces matières ne font pas partie de mes spécialités. Je ne pourrai donc pas les ajouter à ShareFiche. Cependant, si vous souhaitez contribuer en m'envoyant des fiches de révision, je serai ravi de les ajouter au projet. Référez-vous à la section "Comment contribuer ?" pour plus d'informations.
+Je n'ajouterai aucune matière ne faisant pas partie de mes spécialités.
+Cependant, si vous souhaitez contribuer en m'envoyant des fiches de révision, je serai ravi de les ajouter au projet. Référez-vous à la section "Comment contribuer ?" pour plus d'informations.
 
 ## Avertissement ⚠️
 
@@ -43,6 +39,12 @@ Je ne suis en aucun cas responsable de vos erreurs ou des erreurs qu'elles peuve
 
 ## Licence 📜
 
-ShareFiche est sous licence GNU GPL v3.0. Pour plus d'informations, veuillez consulter le fichier [Licence](LICENSE).
+ShareFiche - Copyright © 2024 Lucas THIEBAUT
+Tous droits réservés.
 
-<p xmlns:cc="http://creativecommons.org/ns#" ><a rel="cc:attributionURL" href="https://github.com/LuckyTheCookie/sharefiche">Ces fiches de révisions</a> par <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://bento.me/lucasthiebaut">Lucas THIEBAUT</a> sont protégées par la license <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p> 
+Si vous souhaitez utiliser les fiches de révision de ShareFiche pour un usage personnel, vous pouvez les télécharger et les consulter librement. Cependant, toute utilisation commerciale ou reproduction des fiches de révision est interdite sans mon autorisation.
+Si vous souhaitez obtenir une licence spéciale, n'hésitez pas à m'envoyer un message privé.
+
+## Crédits 🙏
+Ces fiches de révision peuvent contenir des images ou des textes soumis à des droits d'auteur ou rédigés par des tiers. Si vous êtes l'auteur d'une image ou d'un texte présent sur ShareFiche et que vous souhaitez le retirer, veuillez me contacter par message privé.
+Les crédits relatifs aux images et aux textes sont indiqués dans les fiches de révision concernées.
