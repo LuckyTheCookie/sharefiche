@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Hackclub</title>
+    <link rel="stylesheet" href="hccss.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    
+    <main>
+        <section id="hero" class="hero">
+                <h1>Bienvenue sur Votre Hackclub</h1>
+                <p>Une communauté passionnée par la programmation et la technologie</p>
+                <a href="#about" class="bgbutton">En savoir plus</a>
+        </section>
+        
+        <section id="about" class="content-section">
+            <h2>Où suis-je ?</h2>
+            <p>Vous êtes tombé sur la page de notre (futur) club de programmation !</p>
+            <p>Nous aimerions ouvrir un autre club dans notre lycée, et vous faire découvrir le monde de la programmation de façon amusante et passionnante.</p>
+            <p>Nous sommes partenaires avec Hackclub pour vous organiser des ateliers de programmation simples et amusants, où chacun pourra apprendre à son rythme.</p>
+            <div style="margin-top: 15px;">
+                <p class="muted">En partenariat avec :</p>
+                <img src="https://assets.hackclub.com/flag-standalone-wtransparent.svg" alt="Hackclub" class="partner-logo">
+            </div>
+        </section>
+        
+        <section id="contact" class="content-section">
+            <h2>Ca m'intéresse !</h2>
+            <p>Nous en sommes ravis !</p>
+            <p>Le club n'est pas encore ouvert, mais nous aimerions d'ores et déjà vous tenir informé de l'avancée du projet et savoir si vous seriez intéressé pour nous rejoindre.</p>
+            <div class="form-container">
+                <form id="interestForm">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="class">Classe</label>
+                        <input type="text" id="class" name="class" placeholder="1G1, 2G3, STI2D..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="bgbutton">Envoyer</button>
+                </form>
+            </div>
+        </section>        
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Follereau Hackclub. Tous droits réservés.</p>
+        <p>Créé avec ❤️ par Lucas // Hébergé par Sunny</p>
+    </footer>
+    
+    <script src="./Scripts/gsap-anim.js"></script>
+    <script src="./Scripts/form.js"></script>
+</body>
+</html>

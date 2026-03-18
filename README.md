@@ -1,36 +1,51 @@
-# ShareFiche - High School Revision Sheets 📑
+# ShareFiche - Fiches de révision pour le lycée 📑
 
-> 🕰️ **This is an old project** I made back when I was in *Seconde* (Year 10) - one of my very first coding projects, built entirely with **HTML, CSS & JavaScript** as I was just starting to learn programming. I've kept it here on GitHub Pages as a little piece of nostalgia. 😄
->
-> 🚀 **A newer, improved version is now live at [school.lthb.fr](https://school.lthb.fr/)**
+ShareFiche est un projet collaboratif qui a pour but de partager mes fiches de révision afin d'aider les élèves de ma classe. Les fiches sont classées par matière et par thème. Elles sont disponibles en téléchargement et en visualisation directe.
 
----
+## Comment ça marche ? 🤔
 
-ShareFiche is an open-source project I created to share my personal revision sheets with my classmates. Sheets are organized by subject and topic, available for direct viewing or download.
+Pour utiliser Sharefiche, rendez-vous sur le site [ShareFiche](https://school.lthb.fr). Vous pourrez y télécharger les fiches de révision qui vous intéressent et les consulter directement en ligne. 
+Depuis l'année 2024, ShareFiche requiert un compte pour consulter les fiches de révision. Vous pouvez vous inscrire gratuitement sur le site.
 
-## How does it work? 🤔
+## Comment contribuer ? 🤝
 
-No installation or account needed. Just head over to [ShareFiche](https://luckythecookie.github.io/sharefiche/home.html) and browse the available sheets - you can view them directly in your browser or download them.
+Si vous souhaitez contribuer à ShareFiche, vous pouvez m'envoyer vos fiches de révision par message privé, ou vous pouvez également ouvrir une issue sur le dépôt GitHub du projet.
 
-## How to contribute? 🤝
+## Statut du projet 🚀
 
-Feel free to send me your own revision sheets via private message, or open an issue on this GitHub repository.
+Le projet ShareFiche est en cours de développement. Il est régulièrement mis à jour avec de nouvelles fiches de révision.
 
-## Available subjects 📚
+## Matières disponibles 📚
 
-- Physics & Chemistry 🧪
-- French 📖
-- SNT (Digital Science & Technology) 🖥️
-- English 🇬🇧
-- German 🇩🇪
-- EMC (Civic & Moral Education) ⚖️
+- Physique Chimie 🧪
+- Mathématiques 🧮
+- Allemand 🇩🇪
 
-## Disclaimer ⚠️
+## Matières à venir très prochainement 📅
 
-These revision sheets are personal notes - they are not guaranteed to be error-free or exhaustive. Use them as a complement to your own notes and lessons. I am not responsible for any mistakes they may contain or any impact on your results.
+- Français 📖
+- NSI 💻
+- Histoire-Géographie 🌍
+- Anglais 🇬🇧
 
-## License 📜
+Je n'ajouterai aucune matière ne faisant pas partie de mes spécialités.
+Cependant, si vous souhaitez contribuer en m'envoyant des fiches de révision, je serai ravi de les ajouter au projet. Référez-vous à la section "Comment contribuer ?" pour plus d'informations.
 
-ShareFiche is licensed under the GNU GPL v3.0. See the [LICENSE](LICENSE) file for more details.
+## Avertissement ⚠️
 
-<p xmlns:cc="http://creativecommons.org/ns#"><a rel="cc:attributionURL" href="https://github.com/LuckyTheCookie/sharefiche">These revision sheets</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://bento.me/lucasthiebaut">Lucas THIEBAUT</a> are licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
+Ces fiches de révisions ne vous garantissent pas forcément de meilleurs résultats aux examens. En effet, les fiches de révision présentes sur ShareFiche sont des fiches de révision personnelles. Elles ne sont pas garanties sans erreur et ne sont pas exhaustives. Il est recommandé de les utiliser en complément de vos cours et de vos propres fiches de révision. 
+Je ne suis en aucun cas responsable de vos erreurs ou des erreurs qu'elles peuvent contenir.
+
+
+## Licence 📜
+
+ShareFiche - Copyright © 2024 Lucas THIEBAUT
+Tous droits réservés.
+
+Si vous souhaitez utiliser les fiches de révision de ShareFiche pour un usage personnel, vous pouvez les télécharger et les consulter librement. Cependant, toute utilisation commerciale ou reproduction des fiches de révision est interdite sans mon autorisation.
+Si vous souhaitez obtenir une licence spéciale, n'hésitez pas à m'envoyer un message privé.
+
+## Crédits 🙏
+Ces fiches de révision peuvent contenir des images ou des textes soumis à des droits d'auteur ou rédigés par des tiers. Si vous êtes l'auteur d'une image ou d'un texte présent sur ShareFiche et que vous souhaitez le retirer, veuillez me contacter par message privé.
+Les crédits relatifs aux images et aux textes sont indiqués dans les fiches de révision concernées.
+

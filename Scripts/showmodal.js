@@ -1,6 +1,6 @@
 // Vérifier si le modal doit être affiché
 console.log("Checking if modal should be shown")
-var modalShown = localStorage.getItem('modalShown');
+var modalShown = getCookie('modalShown');
 console.log("modalShown cookie value: " + modalShown)
 
 if (!modalShown) {
@@ -8,28 +8,30 @@ if (!modalShown) {
   console.log("Modal should be shown")
   var modalTriggerBtn = document.getElementById('modalTriggerBtn');
   modalTriggerBtn.click();
-  
 }
 
-// Gérer le bouton Ne plus afficher
+// Gérer le bouton Fermer
 var modalCloseBtn = document.getElementById('modalCloseBtn');
 modalCloseBtn.addEventListener('click', function() {
-  // Effacer le cookie et empêcher le modal de s'afficher à nouveau
-  localStorage.removeItem('modalShown');
-  console.log("Removing modalShown cookie")
-});
-
-// Gérer le bouton OK
-var modalUnderstoodBtn = document.getElementById('modalUnderstoodBtn');
-// Enregistrer dans les cookies que le modal a été affiché
-console.log("Setting modalShown cookie")
-localStorage.setItem('modalShown', true);
-modalUnderstoodBtn.addEventListener('click', function() {
   // Fermer le modal
   var modalInstance = bootstrap.Modal.getInstance(document.getElementById('staticBackdrop'));
   modalInstance.hide();
   console.log("Hiding modal")
 });
+
+
+// Gérer le bouton Compris (Ne plus afficher)
+modalUnderstoodBtn.addEventListener('click', function() {
+  // Fermer le modal
+  var modalInstance = bootstrap.Modal.getInstance(document.getElementById('staticBackdrop'));
+  modalInstance.hide();
+  console.log("Hiding modal")
+  // Définir un cookie pour ne plus afficher le modal
+  document.cookie = "modalShown=true; path=/; SameSite=Strict; Max-Age=2592000";
+  console.log("Added cookie modalShown=true")
+});
+
+
 
 // Fonction pour désactiver les boutons pendant un certain temps
 function disableButtonsForSeconds(seconds) {
@@ -48,3 +50,20 @@ function disableButtonsForSeconds(seconds) {
 window.onload = function() {
     disableButtonsForSeconds(10);
 };
+
+function getCookie(name) {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);    
+  if (parts.length === 2) return parts.pop().split(';').shift();
+  return "";
+}
+
+function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}

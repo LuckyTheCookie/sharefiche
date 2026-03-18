@@ -176,3 +176,103 @@ a {
     font-size: 15px;
     font-weight: bold;
 }
+
+/* Top banner, very light blue, small shadow at the bottom */
+.banner {
+    background-color: #DDF2FD;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hackclub-promo {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1.5rem;
+}
+
+.hackclub-promo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hackclub-promo .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-family: 'Phantom Sans Bold', sans-serif;
+    color: #ffffff;
+}
+
+.hackclub-promo .card-text {
+    font-family: 'Phantom Sans Regular', sans-serif;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.hackclub-promo .cta-button {
+    display: inline-block;
+    background-color: #ec3750;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.hackclub-promo .cta-button:hover {
+    background-color: #d62d45;
+    transform: translateY(-2px);
+}
+
+@font-face {
+    font-family: 'Phantom Sans Regular';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
+        format('woff'),
+      url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')
+        format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Phantom Sans Bold';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')
+        format('woff'),
+      url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')
+        format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@media screen and (max-width: 1200px) {
+
+    .hackclub-promo {
+        margin-bottom: 10px;
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .hackclub-promo h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .hackclub-promo p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .cta-button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}

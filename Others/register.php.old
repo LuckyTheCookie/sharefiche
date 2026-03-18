@@ -1,0 +1,49 @@
+<?php
+include 'config.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = strtolower($_POST['username']);
+    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+    $premium = password_hash($_POST['premium'], PASSWORD_BCRYPT);
+
+    $sql = "SELECT * FROM users WHERE username = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("s", $username);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows > 0) {
+        echo "User already exists";
+    } else {
+        $sql = "INSERT INTO users (username, password, is_premium) VALUES (?, ?, ?)";
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("sss", $username, $password, $premium);
+        if ($stmt->execute()) {
+            echo "User registered successfully";
+            // Redirect to login page after registration and waiting for 3 seconds
+            header("refresh:3;url=login");
+        } else {
+            echo "Error: " . $stmt->error;
+        }
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Register</h2>
+<form method="post" action="">
+  Username:<br>
+  <input type="text" name="username" required>
+  <br>
+  Password:<br>
+  <input type="password" name="password" required>
+    <br>
+    Premium:<br>
+    <input type="text" name="premium">
+  <br><br>
+  <input type="submit" value="Register">
+</form>
+</body>
+</html>

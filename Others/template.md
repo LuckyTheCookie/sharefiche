@@ -72,3 +72,75 @@
     </div>
     </div>
 </div>
+
+
+
+<div class="container mt-3 position-relative" id="intro">
+        <a href="../" class="btn btn-secondary position-absolute">Accueil</a>
+        <h1 class="title text-center">Allemand 🇩🇪</h1>
+    </div>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Login</h2>
+<form method="post" action="">
+  Username:<br>
+  <input type="text" name="username" required>
+  <br>
+  Password:<br>
+  <input type="password" name="password" required>
+  <br><br>
+  <input type="submit" value="Login">
+</form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Register</h2>
+<form method="post" action="">
+  Username:<br>
+  <input type="text" name="username" required>
+  <br>
+  Password:<br>
+  <input type="password" name="password" required>
+  <br><br>
+  <input type="submit" value="Register">
+</form>
+</body>
+</html>
+
+
+{
+  "hostname": "lthb.fr",
+  "apiKey": "ckey_0197af658a25618e955bc9eebd49",
+  "secret": "csec_90cf21a058cab01b8e638081b724454127acf9ead992f936",
+  "license": "This API key is provided free of charge. Use of this key or the API it accesses is at your own risk with no warranty or liability. By using this key you agree to properly attribute ALTCHA on your website as described in the documentation (https://altcha.org/docs/api/api_keys#attribution-for-free-api-keys). Terms of Service apply ((https://altcha.org/terms-of-service).",
+  "verification": {
+    "DNS": {
+      "name": "@",
+      "type": "TXT",
+      "value": "altcha-verification=058266f8ff743715"
+    }
+  }
+}
+
+<altcha-widget
+  challengeurl="https://eu.altcha.org/api/v1/challenge?apiKey=ckey_..."
+></altcha-widget>
+
+CREATE A CONTACT FORM (TEACHERS AND SUGGESTIONS)
+
+<div class="to-the-center">
+
+        <a href="./auth/logout.php" class="btn btn-primary">DÃ©connexion</a>
+
+    </div>
+
+<!-- ==================================================== -->
+    <!-- Footer Fiches -->
+    <!-- ==================================================== -->

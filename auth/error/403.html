@@ -1,0 +1,102 @@
+<!--Debug [[Security_Rule = "This kind of files (start with a dot file / dev files) are blocked by default for security. This cant be disabled."; HTTP_Code = "403"; Request_ID = "de0257b0a5cf06e84cc908ca3e3552ab"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 403</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-shield-alt"></i>️
+            
+            HTTP 403<br/>
+            <small data-i18n-key="title">
+              
+                Accès interdit
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+          L'accès à ce fichier est bloqué pour des raisons de sécurité. N'essayez pas de contourner cette sécurité ou de fouiller dans les fichiers du serveur. <br/>
+          </p>
+        </div>
+      </div>
+
+      <div>
+
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+
+        <br/><br/>
+        <small>
+          
+        </small>
+        <br>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                    Access denied
+              `,
+              "lead": `
+                Access to this file is blocked for security reasons. Do not try to bypass this security or rummage through the server files. <br/>
+              `
+          },
+          "fr": {
+              "title": `
+                  Accès interdit
+              `,
+              "lead": `
+                L'accès à ce fichier est bloqué pour des raisons de sécurité. N'essayez pas de contourner cette sécurité ou de fouiller dans les fichiers du serveur. <br/>
+              `
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = "This kind of files (start with a dot file / dev files) are blocked by default for security. This cant be disabled."; HTTP_Code = "403"; Request_ID = "3f7f74dd9496537618faa9a3109f0f8a"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
