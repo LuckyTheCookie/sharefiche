@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^login$ login.php [L]
+    RewriteRule ^register$ register.php [L]
+    RewriteRule ^logout$ logout.php [L]
+    RewriteRule ^config.php$ error/403.html [L]
+</IfModule>
